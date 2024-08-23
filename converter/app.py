@@ -18,6 +18,6 @@ def convert_ui_to_py(input_file, output_file):
         print(f"Error occurred: {e}")
 
 if __name__ == "__main__":
-    input_file = './ui.ui'
+    input_file = './uiv3.ui'
     output_file = 'ui.py'
     convert_ui_to_py(input_file, output_file)

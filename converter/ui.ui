@@ -24,7 +24,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTabWidget" name="tabWidget">
+   <widget class="QTabWidget" name="PowerSim">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -36,11 +36,11 @@
     <property name="currentIndex">
      <number>1</number>
     </property>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="power">
      <attribute name="title">
       <string>Tab 1</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="AddPower">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -73,7 +73,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="Voltage">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -86,7 +86,7 @@
        <string>TextLabel</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="Current">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -100,13 +100,13 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_2">
+    <widget class="QWidget" name="Sim">
      <attribute name="title">
       <string>Tab 2</string>
      </attribute>
     </widget>
    </widget>
-   <widget class="QTabWidget" name="tabWidget_2">
+   <widget class="QTabWidget" name="MatGraph">
     <property name="geometry">
      <rect>
       <x>560</x>
@@ -116,9 +116,9 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
-    <widget class="QWidget" name="tab_3">
+    <widget class="QWidget" name="graph_2">
      <attribute name="title">
       <string>Tab 1</string>
      </attribute>
@@ -133,7 +133,7 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_4">
+    <widget class="QWidget" name="matplot_2">
      <attribute name="title">
       <string>Tab 2</string>
      </attribute>
@@ -222,7 +222,7 @@
      </widget>
     </widget>
    </widget>
-   <widget class="QWidget" name="Logo" native="true">
+   <widget class="QWidget" name="LogoContainer" native="true">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -231,7 +231,7 @@
       <height>80</height>
      </rect>
     </property>
-    <widget class="QLabel" name="label_3">
+    <widget class="QLabel" name="Logo_2">
      <property name="geometry">
       <rect>
        <x>40</x>
