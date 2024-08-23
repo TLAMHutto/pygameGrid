@@ -1,0 +1,6 @@
+Window resized: Width=820, Height=900
+Window position: x=1919, y=30
+GridWidget size: Width=600, Height=600
+GridWidget position: x=0, y=0
+
+Bottom widget: x:10 y:750 w:590 h:120
