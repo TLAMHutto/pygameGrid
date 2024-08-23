@@ -1,0 +1,2 @@
+Main Window - width:936, height:904
+self.setGeometry(1920, 30, 936, 904)
