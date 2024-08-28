@@ -3,7 +3,7 @@
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtGui import QPainter, QColor, QPen
 from PyQt5.QtCore import Qt
-from popup import CellInfoDialog
+from grid_popup import GridPopup
 class GridWidget(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -51,5 +51,5 @@ class GridWidget(QWidget):
                 col_letter = chr(ord('A') + col)  # Convert column index to letter
                 row_number = row + 1  # Convert row index to number
                 coord = f"{col_letter}{row_number}"
-                dialog = CellInfoDialog(coord, self)
+                dialog = GridPopup(self)
                 dialog.exec_()
